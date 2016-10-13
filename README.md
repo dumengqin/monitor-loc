@@ -2,6 +2,10 @@
 > 利用Webpack+Vue2.0写的一个监测点及传感器相对于位置表现形式的3个页面，其中所涉及到的插件包括(Webpack、Vue 2.0、Echarts 3.0、fullpage.js、jquery.nicescroll、bootstrap、bootstrap-datepicker)
 
 ## 预览
+### 在线demo
+[点击这里](http://static.cloudeyes.cn/dmq/demo/monitor_loc/index.html)
+(目前打包文件未做任何优化，所以打包体积较大、打开速度较慢)
+
 ### map页面
 ![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_1.jpg "github") 
 
@@ -11,6 +15,7 @@
 
 ### sensor页面
 ![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_4.jpg "github") 
+
 
 ## 环境要求
 > * node.js
