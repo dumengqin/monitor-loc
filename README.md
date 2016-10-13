@@ -4,7 +4,7 @@
 ## 预览
 ### 在线demo
 [点击这里](http://static.cloudeyes.cn/dmq/demo/monitor_loc/index.html)
-(目前打包文件未做任何优化，所以打包体积较大、打开速度较慢)
+(目前打包文件未做任何优化，所以打包体积较大、打开速度较慢，仅供学习)
 
 ### map页面
 ![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_1.jpg "github") 
@@ -38,5 +38,5 @@
 
 ### 运行项目
 > * `$ webpack-dev-server --inline`
-> * 浏览器打开[`http://127.0.0.1:8080`](http://127.0.0.1:8080);（如打开失败，请查看8080端口是否被占用）
+> * 打开[`http://127.0.0.1:8080`](http://127.0.0.1:8080);（如打开失败，请查看8080端口是否被占用）
 		
