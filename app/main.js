@@ -1,6 +1,6 @@
 
 import 'bootstrap/dist/css/bootstrap.css'
-import 'fullpage.js/jquery.fullPage.css'
+import 'fullpage.js/dist/jquery.fullPage.css'
 import './css/iconfont.css'
 import './css/animate.min.css'
 import './css/main.less'
