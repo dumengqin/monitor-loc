@@ -3,13 +3,14 @@
 
 ## 预览
 ### map页面
-![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_1.gif "github") 
+![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_1.jpg "github") 
 
 ### monitor页面
-![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_2.gif "github") 
+![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_2.jpg "github")
+![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_3.jpg "github") 
 
 ### sensor页面
-![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_3.gif "github") 
+![github](http://static.cloudeyes.cn/dmq/preview/screenshot_monitor_loc_4.jpg "github") 
 
 ## 环境要求
 > * node.js
