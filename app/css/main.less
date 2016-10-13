@@ -1,0 +1,196 @@
+@import "base";
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: @color_background;
+}
+/* Clear Fix */
+.clearfix:after {
+    content: ”.”;
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hide from IE Mac */
+.clearfix {
+    display: block;
+}
+/* End hide from IE Mac */
+/* end of clearfix */
+.form-control::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: fade(@color_normal, 80%);
+}
+.form-control:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: fade(@color_normal, 80%);
+}
+.form-control::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: fade(@color_normal, 80%);
+}
+.form-control:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: fade(@color_normal, 80%);
+}
+.form-control {
+    background: linear-gradient(rgba(0, 71, 70, .0), rgba(0, 0, 0, .5));
+    border: 1px solid @color_normal;
+    color: fade(@color_normal, 80%);
+}
+.form-control:focus {
+    border-color: fade(@color_normal, 80%);
+}
+.btn-default {
+    background: linear-gradient(rgba(0, 71, 70, .0), rgba(0, 0, 0, .7));
+    border: 1px solid @color_normal;
+    color: fade(@color_normal, 80%);
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default.active,
+.open> .dropdown-toggle.btn-default,
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open> .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open> .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open> .dropdown-toggle.btn-default.focus {
+    background: linear-gradient(rgba(0, 71, 70, .5), rgba(0, 0, 0, .7));
+    color: @color_normal;
+    border: 1px solid @color_normal;
+}
+.dropdown-menu> li> a {
+    color: fade(@color_normal, 80%);
+}
+.dropdown-menu> li> a:hover,
+.dropdown-menu> li> a:focus {
+    color: @color_normal;
+    background: linear-gradient(rgba(0, 71, 70, .5), rgba(0, 0, 0, .7));
+}
+.box-glow.normal {
+    border: 1px solid @color_normal;
+    animation: bounceIn 1s, box-glow-normal 3s 1 ease-in-out;
+}
+.box-glow.warning {
+    border: 1px solid fade(@color_warning, 100%);
+    animation: bounceIn 1s, box-glow-warning 1s 1 ease-in-out;
+}
+@keyframes box-glow-normal {
+    0% {
+        border: 1px solid fade(@color_normal, 50%);
+        box-shadow: 0 0 15px fade(@color_normal, 20%);
+    }
+    50% {
+        border: 1px solid fade(@color_normal, 100%);
+        box-shadow: 0 0 40px fade(@color_normal, 100%);
+    }
+    100% {
+        border: 1px solid fade(@color_normal, 50%);
+        box-shadow: 0 0 15px fade(@color_normal, 20%);
+    }
+}
+@keyframes box-glow-warning {
+    0% {
+        border: 1px solid fade(@color_warning, 50%);
+        box-shadow: 0 0 40px fade(@color_warning, 20%);
+    }
+    50% {
+        border: 1px solid fade(@color_warning, 100%);
+        box-shadow: 0 0 15px fade(@color_warning, 100%);
+    }
+    100% {
+        border: 1px solid fade(@color_warning, 50%);
+        box-shadow: 0 0 40px fade(@color_warning, 20%);
+    }
+}
+@keyframes aperture {
+    0% {
+        opacity: 1;
+        transform: scale(.5);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+@keyframes my-fade {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.spline {
+    background-color: fade(@color_normal, 50%);
+    height: 1px;
+    width: 100%;
+    clear: both;
+}
+.datepicker table tr td.old,
+.datepicker table tr td.new {
+    color: fade(@color_normal, 50%) !important;
+}
+.dropdown-menu {
+    background: linear-gradient(rgba(0, 71, 70, .4), #111111);
+    border: 1px solid fade(@color_normal, 100%);
+    color: fade(@color_normal, 100%);
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+    background: linear-gradient(rgba(0, 71, 70, .4), rgba(255, 255, 255, .3)) !important;
+    color: fade(@color_normal, 100%);
+}
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused {
+    background: linear-gradient(rgba(0, 71, 70, .4), rgba(255, 255, 255, .3)) !important;
+    color: fade(@color_normal, 100%) !important;
+}
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+    background: linear-gradient(rgba(0, 71, 70, .4), rgba(255, 255, 255, .3)) !important;
+}
+.datepicker table tr td span:hover,
+.datepicker table tr td span.focused {
+    background: linear-gradient(rgba(0, 71, 70, .4), rgba(255, 255, 255, .3)) !important;
+}
+.datepicker-dropdown:after {
+    border-bottom: 6px solid @color_normal !important;
+}
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+    background: linear-gradient(rgba(0, 71, 70, .4), rgba(255, 255, 255, .3)) !important;
+    color: fade(@color_normal, 100%);
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: transparent;
+    opacity: 1;
+}
+.anchorBL {
+    display: none !important;
+}
+.my-fade-enter-active {
+    animation: my-fade 0.6s;
+}

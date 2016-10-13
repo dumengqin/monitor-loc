@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>First Webpack And Vue</title>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6cc7e56171c009dfd378f63ba0f35f1e"></script>
+	<link href="styles.css" rel="stylesheet"></head>
+
+	<body>
+		<div id="app">
+			<!--转场动画-->
+			<transition :name="transitionName">
+				<router-view></router-view>
+			</transition>
+		</div>
+	<script type="text/javascript" src="build.js"></script></body>
+</html>

@@ -1,0 +1,107 @@
+{
+	"styleJson": [
+		{
+			"featureType": "water",
+			"elementType": "all",
+			"stylers": {
+				"color": "#044161"
+			}
+		}, {
+			"featureType": "land",
+			"elementType": "geometry",
+			"stylers": {
+				"color": "#004c87"
+			}
+		}, {
+			"featureType": "highway",
+			"elementType": "all",
+			"stylers": {
+				"visibility": "off"
+			}
+		}, {
+			"featureType": "arterial",
+			"elementType": "geometry",
+			"stylers": {
+				"color": "#004981"
+			}
+		}, {
+			"featureType": "arterial",
+			"elementType": "geometry.fill",
+			"stylers": {
+				"color": "#00508b"
+			}
+		}, {
+			"featureType": "local",
+			"elementType": "geometry",
+			"stylers": {
+				"visibility": "off"
+			}
+		}, {
+			"featureType": "railway",
+			"elementType": "geometry.fill",
+			"stylers": {
+				"color": "#000000"
+			}
+		}, {
+			"featureType": "railway",
+			"elementType": "geometry.stroke",
+			"stylers": {
+				"color": "#08304b"
+			}
+		}, {
+			"featureType": "subway",
+			"elementType": "geometry",
+			"stylers": {
+				"lightness": -70
+			}
+		}, {
+			"featureType": "building",
+			"elementType": "all",
+			"stylers": {
+				"color": "#1a5787"
+			}
+		}, {
+			"featureType": "all",
+			"elementType": "labels.text.fill",
+			"stylers": {
+				"color": "#857f7f"
+			}
+		}, {
+			"featureType": "all",
+			"elementType": "labels.text.stroke",
+			"stylers": {
+				"color": "#000000"
+			}
+		}, {
+			"featureType": "green",
+			"elementType": "geometry",
+			"stylers": {
+				"color": "#056197"
+			}
+		}, {
+			"featureType": "boundary",
+			"elementType": "geometry",
+			"stylers": {
+				"color": "#004c87"
+			}
+		}, {
+			"featureType": "boundary",
+			"elementType": "geometry.fill",
+			"stylers": {
+				"color": "#0061a9"
+			}
+		}, {
+			"featureType": "manmade",
+			"elementType": "all",
+			"stylers": {
+				"visibility": "off"
+			}
+		}, {
+			"featureType": "label",
+			"elementType": "all",
+			"stylers": {
+				"visibility": "off"
+			}
+		}
+	]
+}
