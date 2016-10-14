@@ -44,6 +44,8 @@
 				}
 			})
 			var bmap = myChart.getModel().getComponent('bmap').getBMap()
+			bmap.setMinZoom(5)
+
 				//改变地图容器背景色
 			bmap.getContainer().style.backgroundColor = unit.background_color
 		}
