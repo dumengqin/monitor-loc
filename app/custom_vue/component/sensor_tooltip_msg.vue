@@ -55,7 +55,7 @@
 			<path ref="mypath" class="path" fill="transparent" stroke="rgba(0, 255, 253, .8)" stroke-width="2" stroke-miterlimit="10" d="M100,100 50,50 0,50" />
 		</svg>
 		<div ref="sensor_tooltip_msg" class="sensor-tooltip-msg box-glow normal">
-			<img src="http://static.cloudeyes.cn/figure.jpg">
+			<img src="../../img/figure.jpg">
 			<div><i class="iconfont">&#xe608;</i> ：隧道入口左侧地表裂缝</div>
 			<div><i class="iconfont">&#xe60a;</i> ：(0.387,0.285)°</div>
 			<div><i class="iconfont">&#xe604;</i> ：09-20 09:39</div>

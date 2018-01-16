@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-	devtool: "source-map",
+//	devtool: "source-map",
 	entry: './app/main.js',
 	output: {
 		path: __dirname + '/build',
@@ -23,22 +23,16 @@ module.exports = {
 		}, {
 			test: /\.less$/,
 			loader: ExtractTextPlugin.extract('style', 'css!less')
-		}, {
-			test: /.(png|jpg)$/,
-			loader: 'url-loader'
-		}, {
+		},{
 			test: /\.vue$/,
 			loader: 'vue'
 		}, {
 			test: /\.json$/,
 			loader: 'json-loader'
 		}, {
-			test: /\.(png|jpg|gif)$/,
-			loader: 'file?name=[name].[ext]?[hash]'
-		}, {
-			test: /\.(ttf|svg|eot|woff|woff2)$/,
-			loader: "file-loader"
-		}]
+                test: /\.(ttf|svg|eot|woff|woff2|jpg|png|gif)/,
+                loader: "url-loader"
+            }]
 	},
 	devServer: {
 		contentBase: './build'

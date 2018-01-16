@@ -57,7 +57,7 @@
 </style>
 <template>
 	<div>
-		<img class="sensor-tooltip-img normal animated" src="http://static.cloudeyes.cn/figure.jpg">
+		<img class="sensor-tooltip-img normal animated" src="../../img/figure.jpg">
 		<div class="sensor-tooltip-aperture normal"></div>
 		<div class="sensor-tooltip-aperture-2 normal"></div>
 	</div>

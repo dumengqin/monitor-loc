@@ -172,7 +172,7 @@
 				sensor_tooltip_list: [{
 					x: 26,
 					y: 39,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '地表位移(1-1)',
 					data: '1.234 mm',
 					date: '09-20 09:39',
@@ -181,7 +181,7 @@
 				}, {
 					x: 16,
 					y: 49,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '测斜仪(2-1)',
 					data: '(0.387,0.285)°',
 					date: '09-20 09:39',
@@ -190,7 +190,7 @@
 				}, {
 					x: 33,
 					y: 44,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '雨量计',
 					data: '20 mm',
 					date: '09-20 09:39',
@@ -199,7 +199,7 @@
 				}, {
 					x: 58,
 					y: 29,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '激光(1-2)',
 					data: '0.026 cm',
 					date: '09-20 09:39',
@@ -208,7 +208,7 @@
 				}, {
 					x: 50,
 					y: 80,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '刘家沟监测系统',
 					data: '',
 					date: '09-20 09:39',
@@ -217,7 +217,7 @@
 				}, {
 					x: 89,
 					y: 74,
-					img: 'http://static.cloudeyes.cn/0627110728987QQ%E5%9B%BE%E7%89%8720160624162df945.jpg-66.50',
+					img: '20160624162df945.jpg',
 					addr: '二级台阶左2-13-1 (313874)',
 					data: '516.703 KN',
 					date: '09-20 09:39',

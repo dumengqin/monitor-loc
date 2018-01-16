@@ -15,6 +15,6 @@
 </style>
 <template>
 	<div class="main">
-		<img src="http://static.cloudeyes.cn/0809143456393DJI_0059.JPG" />
+		<img src="../../img/0809143456393DJI_0059.jpg" />
 	</div>
 </template>
